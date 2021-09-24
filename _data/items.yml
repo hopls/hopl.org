@@ -109,10 +109,22 @@
 - name: Type Class
   year: 1988
   description: Proposed by Philip Wadler, first implemented in Haskell, it’s a type system construct that supports ad-hoc polymorphism.
+  
+- name: Calculus of Constructions (CoC)
+  year: 1988
+  description: Created by Thierry Coquand, it's a higher-order typed lambda calculus with strong normalization.
+  
+- name: Coq Proof Assistant
+  year: 1989
+  description: Based on calculus of inductive constructions, it's an interactive theorem prover.
 
 - name: Common Lisp Object System (CLOS)
   year: 1990
   description: CLOS is a dynamic object system that supports multiple dispatch and multiple inheritance.
+  
+- name: Lambda Cube (λ-cube)
+  year: 1991
+  description: Introduced by Henk Barendregt, it's a framework that tries to generalize CoC from λ-calculus in three dimensions.
 
 - name: Python Programming Language
   year: 1991
@@ -125,6 +137,10 @@
 - name: Ruby Programming Language
   year: 1995
   description: Designed by Yukihiro Matsumoto, it’s a dynamically-typed OOP languages with a focus on simplicity and productivity.
+  
+- name: Ocaml Programming Language
+  year: 1996
+  description: Created in 1996 by Xavier Leroy and etc, it's a dialect of ML with a object system.
 
 - name: Featherweight Java
   year: 2001
