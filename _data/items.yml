@@ -32,11 +32,11 @@
 
 - name: Church-Rosser Theorem
   year: 1936
-  description: Proved by Alonzo Church and J.Barkley Rosser, it states that, when applying reduction rules to terms, the ordering in which the reductions are chosen does not make a difference to the eventual result.                
+  description: Proved by Alonzo Church and J.Barkley Rosser, it states that, when applying reduction rules to terms, the ordering in which the reductions are chosen does not make a difference to the eventual result.
 
 - name: Simply Typed Lambda Calculus (STLC)
   year: 1940
-  description: 'Introduced by Alonzo Church, STLC is a typed interpretation of the lambda calculus with only one type constructor: function types, and attempts to avoid paradoxical uses of the untyped lambda calculus.'
+  description: 'Introduced by Alonzo Church, STLC is a typed interpretation of the lambda calculus with only one type constructor: function types.'
 
 - name: Kleene's Theorem
   year: 1954
@@ -64,7 +64,7 @@
 
 - name: Curry-Howard Isomorphism
   year: 1969
-  description: After Haskell Curry emphasized the syntactic correspondence between Hilbert-style deduction and combinatory logic, William Alvin Howard made explicit a syntactic analogy between the programs of simply typed lambda calculus and the proofs of natural deduction.
+  description: Proposed by Haskell Curry and William Alvin Howard, it's a correspondence between the programs of simply typed lambda calculus and the proofs of natural deduction.
 
 - name: Scott Topology
   year: 1969
