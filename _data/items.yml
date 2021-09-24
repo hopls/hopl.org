@@ -70,6 +70,10 @@
   year: 1969
   description: Proposed by D. S. Scott, it’s a topological model for λ-calculus.
 
+- name: Intuitionistic Type Theory
+  year: 1972
+  description: Created by Per Martin-Löf, it's a type theory on the principles of mathematical constructivism.
+
 - name: Smalltalk Programming Language
   year: 1972
   description: Developed by Alan Kay etc. Smalltalk is a object-oriented language based on the idea of message passing.
