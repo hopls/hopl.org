@@ -89,6 +89,10 @@
 - name: ML Programming Language
   year: 1973
   description: Developed by Robin Milner and etc, it’s a type-safe functional programming language that adopts Hindley–Milner type system.
+  
+- name: Objective-C Programming Language
+  year: 1984
+  description: Developed by Brad Cox and Tom Love, it's an extension of C language with Smalltalk-style object system.
 
 - name: C++ Programming Language
   year: 1985
