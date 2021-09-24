@@ -90,6 +90,10 @@
   year: 1973
   description: Developed by Robin Milner and etc, it’s a type-safe functional programming language that adopts Hindley–Milner type system.
   
+- name: Scheme Programming Language
+  year: 1975
+  description: Developed by Guy L. Steele and Gerald Jay Sussman, it's a S-expression language based on λ-calculus.
+  
 - name: Objective-C Programming Language
   year: 1984
   description: Developed by Brad Cox and Tom Love, it's an extension of C language with Smalltalk-style object system.
