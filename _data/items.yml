@@ -69,6 +69,10 @@
 - name: Scott Topology
   year: 1969
   description: Proposed by D. S. Scott, it’s a topological model for λ-calculus.
+  
+- name: Girard's Paradox
+  year: 1972
+  description: Proposed by Jean-Yves Girard, it's the type-theoretic analogue of Russell's paradox in set theory.
 
 - name: Intuitionistic Type Theory
   year: 1972
