@@ -1,0 +1,131 @@
+- name: Semantics
+  year: 1900
+  description: Introduced in a book of Michel Breal, it refers to the study of how words change their meanings.
+
+- name: Russell's Paradox
+  year: 1901
+  description: Russell’s paradox shows that every set theory that contains an unrestricted comprehension principle leads to contradictions.
+
+- name: Principia Mathematica
+  year: 1910
+  description: Written by Whitehead and Russell, and aims to express mathmatical propositions via symbolic logic to the greatest extent.
+
+- name: Combinatory Logic
+  year: 1920
+  description: Introduced by Moses Schönfinkel, aims to provide an analogous way to build up functions and to remove any mention of variables in predicate logic.
+
+- name: Entscheidungsproblem
+  year: 1928
+  description: Posed by David Hilbert and Wilhelm Ackermann, it's a challenge that asks for an algorithm that considers, as input, a statement and answers "Yes" or "No" according to whether the statement is universally valid.
+
+- name: Lambda Calculus (λ-calculus)
+  year: 1930
+  description: Introduced by Alonzo Church, λ-calculus is a formal system in mathmatical logic for expressing computation based on function abstraction and application using variable binding and substitution.
+
+- name: Cut-Elimination Theorem
+  year: 1934
+  description: Proved by Gerhard Gentzen, it corresponds to the strong normalization property in higher-order typed lambda calculus.
+
+- name: Turing Machine
+  year: 1936
+  description: Invented by Alan Turing, it's a mathmatical model of computation that defines an abstract machine that manipulates symbols on a strip of tape according to a table of rules.
+
+- name: Church-Rosser Theorem
+  year: 1936
+  description: Proved by Alonzo Church and J.Barkley Rosser, it states that, when applying reduction rules to terms, the ordering in which the reductions are chosen does not make a difference to the eventual result.                
+
+- name: Simply Typed Lambda Calculus (STLC)
+  year: 1940
+  description: 'Introduced by Alonzo Church, STLC is a typed interpretation of the lambda calculus with only one type constructor: function types, and attempts to avoid paradoxical uses of the untyped lambda calculus.'
+
+- name: Kleene's Theorem
+  year: 1954
+  description: 'Kleene presented and proved a theorem which states that all three of these methods of defining languages are equivalent: regular expression, finite automaton and transition graph.'
+
+- name: Chomsky Hierarchy
+  year: 1956
+  description: Described by Noam Chomsky, it is a containment hierarchy of classes of formal grammars.
+
+- name: Lisp Programming Language
+  year: 1958
+  description: Developed by John McCarthy, Lisp (LISt Processing) is a symbolic computational language that adopts S-expression.
+
+- name: Backus-Naur Form (BNF)
+  year: 1959
+  description: Proposed by John Backus in ALGOL 58, BNF is a metasyntax notation for context-free grammars.
+
+- name: Simula Programming Language
+  year: 1962
+  description: Developed by Ole-Johan Dahl and Kristen Nygaard, it’s the first object-oriented programming language that features objects, classes, inheritance and etc.
+
+- name: ISWIM Programming Language
+  year: 1966
+  description: Devised by Peter Landin in “The Next 700 Programming Languages”, it’s a abstract imperative programming language with functional core.
+
+- name: Curry-Howard Isomorphism
+  year: 1969
+  description: After Haskell Curry emphasized the syntactic correspondence between Hilbert-style deduction and combinatory logic, William Alvin Howard made explicit a syntactic analogy between the programs of simply typed lambda calculus and the proofs of natural deduction.
+
+- name: Scott Topology
+  year: 1969
+  description: Proposed by D. S. Scott, it’s a topological model for λ-calculus.
+
+- name: Smalltalk Programming Language
+  year: 1972
+  description: Developed by Alan Kay etc. Smalltalk is a object-oriented language based on the idea of message passing.
+
+- name: System F
+  year: 1972
+  description: Independently discovered by Jean-Yves Girard and John C. Reynolds, it’s a typed lambda calculus by introducing universal quantification over types.
+
+- name: C Programming Language
+  year: 1972
+  description: Designed by Dennis Ritchie, it's a precedure-based language for Unix programming.
+
+- name: Lisp Machine
+  year: 1973
+  description: Originated in MIT AI Lab, Lisp Machine is a high-level language computer architecture that supports effective garbage collection, windowing systems, etc.
+
+- name: ML Programming Language
+  year: 1973
+  description: Developed by Robin Milner and etc, it’s a type-safe functional programming language that adopts Hindley–Milner type system.
+
+- name: C++ Programming Language
+  year: 1985
+  description: Created by Bjarne Stroustrup, it's an extension of C language with object system, templates and the STL.
+
+- name: Mixin
+  year: 1986
+  description: Originated in Flavors, mixins is an inheritance model that can subsumes multiple-inheritance etc.
+
+- name: Type Class
+  year: 1988
+  description: Proposed by Philip Wadler, first implemented in Haskell, it’s a type system construct that supports ad-hoc polymorphism.
+
+- name: Common Lisp Object System (CLOS)
+  year: 1990
+  description: CLOS is a dynamic object system that supports multiple dispatch and multiple inheritance.
+
+- name: Python Programming Language
+  year: 1991
+  description: Developed by Guido van Rossum, it's a dynamically-typed language that emphasizes code readability.
+
+- name: Glasgow Haskell Compiler (GHC)
+  year: 1992
+  description: GHC is a modern Haskell Compiler lead by Simon Peyton Jones and etc.
+
+- name: Ruby Programming Language
+  year: 1995
+  description: Designed by Yukihiro Matsumoto, it’s a dynamically-typed OOP languages with a focus on simplicity and productivity.
+
+- name: Featherweight Java
+  year: 2001
+  description: Studied by Atsushi Igarashi etc, it’s a minimal java-like language which models inheritance and subtyping.
+
+- name: Trait
+  year: 2003
+  description: Proposed by Nathanael Scharli etc, traits is a simple compositional model for structuring object-oriented programs.
+
+- name: Modus Ponens
+  year: UNKNOWN
+  description: 'It’s barely implication elimination in propositional logic: “P implies Q. P is true. Therefore Q must also be true.”'
