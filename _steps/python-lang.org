@@ -1,6 +1,0 @@
----
-title: Python Programming Language
-date: 1991-01-02 00:00:00 +0700
----
-
-Developed by Guido van Rossum, it's a dynamically-typed language that emphasizes code readability.

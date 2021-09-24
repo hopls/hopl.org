@@ -1,26 +1,193 @@
----
-layout: default
----
-
-<div class="container row">
-    <h1 class="cv-title"><span class="black white-text">{{ site.title }}</span></h1>
-    {% assign steps = site.steps | sort: 'date' %}
-    {% for step in steps %}
-    <div class="item">
-        <i class="vertical-line"></i>
-        <h2 class="item-date">{{ step.date | date: '%Y' }}{% if step.enddate %} - {{ step.enddate | date: '%Y' }}{% endif %}</h2>
-        <div class="card-panel">
-            <h3 class="card-title">
-                {{ step.title }}
-            </h3>
-            <p>
-                {{ step.content }}
-            </p>
-        </div>
-    </div>
-    {% endfor %}
-    <div class="last-item">
-        <i class="vertical-line"></i>
-        
-    </div>
-    </div>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400&display=swap" rel="stylesheet" />
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+</style>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Molengo&display=swap');
+</style>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Molengo&family=Open+Sans:wght@300&display=swap');
+</style>
+<link rel="stylesheet" href="index.css">
+<div class="timeline">
+  <div class="timeline-item">
+    <header><b class="year">HOPL</b>History of Programming Languages</header>
+    <p>
+      <a href="https://hopl.org">HOPL.org</a> is a site for timelining events of programming languages.
+    </p>
+  </div>
+  <div class="timeline-item">
+    <header><b class="year">1900</b>Semantics</header>
+    <p>
+      Introduced in a book of Michel Breal, it refers to the study of how words change their meanings.
+    </p>
+  </div>
+  <div class="timeline-item">
+    <header><b class="year">1901</b>Russell's Paradox</header>
+    <p>
+      Russell’s paradox shows that every set theory that contains an unrestricted comprehension principle leads to contradictions.
+    </p>
+  </div>
+  <div class="timeline-item">
+    <header><b class="year">1910</b>Principia Mathematica</header>
+    <p>
+      Written by Whitehead and Russell, and aims to express mathmatical propositions via symbolic logic to the greatest extent.
+    </p>
+  </div>
+  <div class="timeline-item">
+    <header><b class="year">1920</b>Combinatory Logic</header>    
+    <p>
+      Introduced by Moses Schönfinkel, aims to provide an analogous way to build up functions and to remove any mention of variables in predicate logic.
+    </p>
+  </div>
+  <div class="timeline-item">
+    <header><b class="year">1930</b>Lambda Calculus</header>    
+    <p>
+      Introduced by Alonzo Church,  λ-calculus is a formal system in mathmatical logic for expressing computation based on function abstraction and application using variable binding and substitution.
+    </p>
+  </div>
+  <div class="timeline-item">
+    <header><b class="year">1934</b>Cut-Elimination Theorem</header>    
+    <p>
+      Proved by Gerhard Gentzen, it corresponds to the strong normalization property in higher-order typed lambda calculus.
+    </p>
+  </div>
+  <div class="timeline-item">
+    <header><b class="year">1936</b>Church-Rosser Theorem</header>    
+    <p>
+      Proved by Alonzo Church and J.Barkley Rosser, it states that, when applying reduction rules to terms, the ordering in which the reductions are chosen does not make a difference to the eventual result.
+    </p>
+  </div>
+  <div class="timeline-item">
+    <header><b class="year">1940</b>Simply Typed Lambda Calculus</header>    
+    <p>
+      Introduced by Alonzo Church, STLC is a typed interpretation of the lambda calculus with only one type constructor: function types, and attempts to avoid paradoxical uses of the untyped lambda calculus.
+    </p>
+  </div>
+  <div class="timeline-item">
+    <header><b class="year">1954</b>Kleene's Theorem</header>    
+    <p>
+      Kleene presented and proved a theorem which states that all three of these methods of defining languages are equivalent: regular expression, finite automaton and transition graph.
+    </p>
+  </div>
+  <div class="timeline-item">
+    <header><b class="year">1956</b>Chomsky Hierarchy</header>    
+    <p>
+      Described by Noam Chomsky, it is a containment hierarchy of classes of formal grammars.
+    </p>
+  </div>
+  <div class="timeline-item">
+    <header><b class="year">1958</b>Lisp Programming Language</header>    
+    <p>
+      Developed by John McCarthy, Lisp (LISt Processing) is a symbolic computational language that adopts S-expression.
+    </p>
+  </div>
+  <div class="timeline-item">
+    <header><b class="year">1959</b>Backus-Naur Form</header>    
+    <p>
+      Proposed by John Backus in ALGOL 58, BNF is a metasyntax notation for context-free grammars.
+    </p>
+  </div>
+  <div class="timeline-item">
+    <header><b class="year">1962</b>Simula Programming Language</header>    
+    <p>
+      Developed by Ole-Johan Dahl and Kristen Nygaard, it’s the first object-oriented programming language that features objects, classes, inheritance and etc.
+    </p>
+  </div>
+  <div class="timeline-item">
+    <header><b class="year">1966</b>ISWIM Programming Language</header>    
+    <p>
+      Devised by Peter Landin in “The Next 700 Programming Languages”, it’s a abstract imperative programming language with functional core.
+    </p>
+  </div>
+  <div class="timeline-item">
+    <header><b class="year">1969</b>Curry-Howard Isomorphism</header>    
+    <p>
+      After Haskell Curry emphasized the syntactic correspondence between Hilbert-style deduction and combinatory logic, William Alvin Howard made explicit a syntactic analogy between the programs of simply typed lambda calculus and the proofs of natural deduction.
+    </p>
+  </div>
+  <div class="timeline-item">
+    <header><b class="year">1969</b>Scott Topology</header>    
+    <p>
+      Proposed by D. S. Scott, it’s a topological model for λ-calculus.
+    </p>
+  </div>
+  <div class="timeline-item">
+    <header><b class="year">1972</b>Smalltalk Programming Language</header>    
+    <p>
+      Developed by Alan Kay etc. Smalltalk is a object-oriented language based on the idea of message passing.
+    </p>
+  </div>
+  <div class="timeline-item">
+    <header><b class="year">1972</b>System F</header>    
+    <p>
+      Independently discovered by Jean-Yves Girard and John C. Reynolds, it’s a typed lambda calculus by introducing universal quantification over types.
+    </p>
+  </div>
+  <div class="timeline-item">
+    <header><b class="year">1973</b>Lisp Machine</header>    
+    <p>
+      Originated in MIT AI Lab, Lisp Machine is a high-level language computer architecture that supports effective garbage collection, windowing systems, etc.
+    </p>
+  </div>
+  <div class="timeline-item">
+    <header><b class="year">1973</b>ML Programming Language</header>    
+    <p>
+      Developed by Robin Milner and etc, it’s a type-safe functional programming language that adopts Hindley–Milner type system.
+    </p>
+  </div>
+  <div class="timeline-item">
+    <header><b class="year">1986</b>Mixin</header>    
+    <p>
+      Originated in Flavors, mixins is an inheritance model that can subsumes multiple-inheritance etc.
+    </p>
+  </div>
+  <div class="timeline-item">
+    <header><b class="year">1988</b>Type Class</header>    
+    <p>
+      Proposed by Philip Wadler, first implemented in Haskell, it’s a type system construct that supports ad-hoc polymorphism.
+    </p>
+  </div>
+  <div class="timeline-item">
+    <header><b class="year">1990</b>Common Lisp Object System</header>    
+    <p>
+      CLOS is a dynamic object system that supports multiple dispatch and multiple inheritance.
+    </p>
+  </div>
+  <div class="timeline-item">
+    <header><b class="year">1991</b>Python Programming Language</header>    
+    <p>
+      Developed by Guido van Rossum, it's a dynamically-typed language that emphasizes code readability.
+    </p>
+  </div>
+  <div class="timeline-item">
+    <header><b class="year">1992</b>Glasgow Haskell Compiler</header>    
+    <p>
+      GHC is a modern Haskell Compiler lead by Simon Peyton Jones and etc.
+    </p>
+  </div>
+  <div class="timeline-item">
+    <header><b class="year">1995</b>Ruby Programming Language</header>    
+    <p>
+      Designed by Yukihiro Matsumoto, it’s a dynamically-typed OOP languages with a focus on simplicity and productivity.
+    </p>
+  </div>
+  <div class="timeline-item">
+    <header><b class="year">2001</b>Featherweight Java</header>    
+    <p>
+      Studied by Atsushi Igarashi etc, it’s a minimal java-like language which models inheritance and subtyping.
+    </p>
+  </div>
+  <div class="timeline-item">
+    <header><b class="year">2003</b>Trait</header>    
+    <p>
+      Proposed by Nathanael Scharli etc, traits is a simple compositional model for structuring object-oriented programs.
+    </p>
+  </div>
+  <div class="timeline-item">
+    <header><b class="year">UNKNOWN</b>Modus Ponens</header>    
+    <p>
+      It’s barely implication elimination in propositional logic: “P implies Q. P is true. Therefore Q must also be true.”
+    </p>
+  </div>
+</div>
