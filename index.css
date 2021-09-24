@@ -84,3 +84,11 @@ p {
   margin-right: 0.35em;
   border-radius: 5%;
 }
+
+a:link {
+    color: gray;
+}
+
+a:visited {
+    color: gray;
+}
