@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'Special Elite';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/XLYgIZbkc4JPUL5CVArUVL0ntnAOSFNuQsI.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Iceland';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/rax9HiuFsdMNOnWPaKtMARJYk0o.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Molengo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/I_uuMpWeuBzZNBtQXb1akwKso5f4bA.woff2") format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Molengo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/I_uuMpWeuBzZNBtQXbNakwKso5c.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("../fonts/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4gaVQUwaEQbjA.woff") format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+html,
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Molengo', monospace;
+    font-size: 10px;
+    font-weight: 200;
+}
+
+header {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+p {
+    max-width: 700px;
+    font-family: 'Open Sans';
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.timeline-item {
+    border: 1px thin black;
+}
+
+.timeline-item > header {
+    padding: 0.5em 0;
+    padding: 5px;
+}
+
+.timeline-item > p {
+    padding: 10px;
+}
+
+.timeline {
+    position: relative;
+    padding-left: 80px;
+}
+
+.timeline .timeline-item {
+    margin-bottom: 50px;
+    font-size: 1.8rem;
+}
+
+.timeline::before {
+    content: '';
+    background: grey;
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    width: 1px;
+    height: 100%;
+    z-index: -1;
+}
+
+.timeline-item::before {
+    content: '';
+    background: white;
+    border: 1px solid rgb(255, 167, 38);
+    border-radius: 10px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 25px;
+    left: 26px;
+    width: 15px;
+    height: 15px;
+    z-index: -1;
+}
+
+.timeline-item:hover::before {
+    background: rgb(255, 167, 38);
+}
+
+.year {
+  color: white;
+  font-family: 'Iceland', cursive;
+  font-size: x-large;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  background-color: darkgray;
+  margin-right: 0.35em;
+  border-radius: 5%;
+}
+
+a:link {
+    color: gray;
+}
+
+a:visited {
+    color: gray;
+}
