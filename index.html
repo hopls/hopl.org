@@ -6,12 +6,6 @@
   <title>History of Programming Languages</title>
 </head>
 <div class="timeline">
-  <div class="timeline-item">
-    <header><b class="year">HOPL</b>History of Programming Languages</header>
-    <p>
-      <a href="https://hopl4.sigplan.org/">HOPL</a> is a conference produces accurate historical records and descriptions of programming languages and was held in 1978, 1993, 2007 and 2021.
-    </p>
-  </div>
   {% for item in site.data.items %}
   <div class="timeline-item">
     <header><b class="year">{{ item.year }}</b>{{ item.name }}</header>
@@ -20,7 +14,4 @@
     </p>
   </div>
   {% endfor %}
-  <div class="timeline-item">
-    <header><b class="year">CONTACT</b><a href="mailto: xxue@cs.hku.hk">Let me know</a> if something made wrong</header>
-  </div>
 </div>
