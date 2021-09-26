@@ -46,9 +46,13 @@
   year: 1956
   description: Described by Noam Chomsky, it is a containment hierarchy of classes of formal grammars.
 
+- name: Fortran Programming Language
+  year: 1956
+  description: Invented by John Backus, it's a imperative language intended for scientific computing.
+
 - name: Lisp Programming Language
   year: 1958
-  description: Developed by John McCarthy, Lisp (LISt Processing) is a symbolic computational language that adopts S-expression.
+  description: Developed by John McCarthy, Lisp (LISt Processing) is a symbolic computational language.
 
 - name: Backus-Naur Form (BNF)
   year: 1959
@@ -56,7 +60,7 @@
 
 - name: Simula Programming Language
   year: 1962
-  description: Developed by Ole-Johan Dahl and Kristen Nygaard, it’s the first object-oriented programming language that features objects, classes, inheritance and etc.
+  description: Developed by Ole-Johan Dahl and Kristen Nygaard, it’s the first object-oriented programming language.
 
 - name: ISWIM Programming Language
   year: 1966
@@ -96,7 +100,7 @@
 
 - name: ML Programming Language
   year: 1973
-  description: Developed by Robin Milner and etc, it’s a type-safe functional programming language that adopts Hindley–Milner type system.
+  description: Developed by Robin Milner and etc, it’s a type-safe functional programming language.
   
 - name: Scheme Programming Language
   year: 1975
@@ -136,7 +140,7 @@
 
 - name: Python Programming Language
   year: 1991
-  description: Developed by Guido van Rossum, it's a dynamically-typed language that emphasizes code readability.
+  description: Developed by Guido van Rossum, it's a dynamic language that emphasizes code readability.
 
 - name: Glasgow Haskell Compiler (GHC)
   year: 1992
@@ -144,7 +148,7 @@
 
 - name: Ruby Programming Language
   year: 1995
-  description: Designed by Yukihiro Matsumoto, it’s a dynamically-typed OOP languages with a focus on simplicity and productivity.
+  description: Designed by Yukihiro Matsumoto, it’s a dynamic OOP languages with a focus on simplicity and productivity.
   
 - name: Ocaml Programming Language
   year: 1996
