@@ -126,6 +126,10 @@
   year: 1975
   description: Developed by Guy L. Steele and Gerald Jay Sussman, it's a S-expression language based on λ-calculus.
 
+- name: Expression problem
+  year: 1975
+  description: First observed by John Reynolds, later formulated by Philip Wadler, it's a challenge problem that concerns the extensibility and modularity of statically typed data abstractions.
+
 - name: Functional Programming (FP)
   year: 1977
   description: Presented by John Backus in "Can Programming Be Liberated From the von Neumann Style? A Functional Style and its Algebra of Programs".
@@ -185,10 +189,6 @@
 - name: Ocaml
   year: 1996
   description: Created in 1996 by Xavier Leroy and etc, it's a dialect of ML with an object system.
-
-- name: Quickcheck
-  year: 1999
-  description: Developed by Koen Claessen and John Hughes, it's a property-based testing library originated in Haskell.
 
 - name: Featherweight Java
   year: 2001
