@@ -50,11 +50,11 @@
   year: 1956
   description: Described by Noam Chomsky, it is a containment hierarchy of classes of formal grammars.
 
-- name: Fortran Programming Language
+- name: Fortran
   year: 1956
   description: Invented by John Backus, it's a imperative language intended for scientific computing.
 
-- name: Lisp Programming Language
+- name: Lisp
   year: 1958
   description: Developed by John McCarthy, Lisp (LISt Processing) is a symbolic computational language.
 
@@ -62,11 +62,15 @@
   year: 1959
   description: Proposed by John Backus in ALGOL 58, BNF is a metasyntax notation for context-free grammars.
 
-- name: Simula Programming Language
+- name: Lexical Scoping
+  year: 1960
+  description: Originated in ALGOL 60, it states that name resolution depends on the location in the source code and the lexical context.
+
+- name: Simula
   year: 1962
   description: Developed by Ole-Johan Dahl and Kristen Nygaard, it’s the first object-oriented programming language.
 
-- name: ISWIM Programming Language
+- name: ISWIM (If you See What I Mean)
   year: 1966
   description: Devised by Peter Landin in “The Next 700 Programming Languages”, it’s a abstract imperative programming language with functional core.
 
@@ -81,6 +85,10 @@
 - name: Graph Reducation
   year: 1971
   description: First developed by Chris Wadsworth, it's an efficient implementation of non-strict evaluation.
+
+- name: Prolog
+  year: 1972
+  description: Designed by Alain Colmerauer and Robert Kowalski, it's a logical programming language based on unification.
   
 - name: Girard's Paradox
   year: 1972
@@ -90,7 +98,7 @@
   year: 1972
   description: Created by Per Martin-Löf, it's a type theory on the principles of mathematical constructivism.
 
-- name: Smalltalk Programming Language
+- name: Smalltalk
   year: 1972
   description: Developed by Alan Kay etc. Smalltalk is a object-oriented language based on the idea of message passing.
 
@@ -98,7 +106,7 @@
   year: 1972
   description: Independently discovered by Jean-Yves Girard and John C. Reynolds, it’s a typed lambda calculus by introducing universal quantification over types.
 
-- name: C Programming Language
+- name: C
   year: 1972
   description: Designed by Dennis Ritchie, it's a precedure-based language for Unix programming.
 
@@ -106,11 +114,15 @@
   year: 1973
   description: Originated in MIT AI Lab, Lisp Machine is a high-level language computer architecture that supports effective garbage collection, windowing systems, etc.
 
-- name: ML Programming Language
+- name: ML
   year: 1973
   description: Developed by Robin Milner and etc, it’s a type-safe functional programming language.
+
+- name: Abstract Data Type (ADT)
+  year: 1974
+  description: First proposed by Barbara Liskov and Stephen N. Zilles, it's a mathmatical model for data types.
   
-- name: Scheme Programming Language
+- name: Scheme
   year: 1975
   description: Developed by Guy L. Steele and Gerald Jay Sussman, it's a S-expression language based on λ-calculus.
 
@@ -118,11 +130,11 @@
   year: 1977
   description: Presented by John Backus in "Can Programming Be Liberated From the von Neumann Style? A Functional Style and its Algebra of Programs".
   
-- name: Objective-C Programming Language
+- name: Objective-C
   year: 1984
   description: Developed by Brad Cox and Tom Love, it's an extension of C language with Smalltalk-style object system.
 
-- name: C++ Programming Language
+- name: C++
   year: 1985
   description: Created by Bjarne Stroustrup, it's an extension of C language with object system, templates and the STL.
 
@@ -146,7 +158,7 @@
   year: 1990
   description: CLOS is a dynamic object system that supports multiple dispatch and multiple inheritance.
 
-- name: Haskell Programming Language  
+- name: Haskell
   year: 1990
   description: Named after Haskell Curry, it's a pure typed functional programming language.
   
@@ -154,7 +166,7 @@
   year: 1991
   description: Introduced by Henk Barendregt, it's a framework that tries to generalize CoC from λ-calculus in three dimensions.
 
-- name: Python Programming Language
+- name: Python
   year: 1991
   description: Developed by Guido van Rossum, it's a dynamic language that emphasizes code readability.
 
@@ -162,15 +174,15 @@
   year: 1992
   description: GHC is a modern Haskell Compiler lead by Simon Peyton Jones and etc.
 
-- name: Lua Programming Language
+- name: Lua
   year: 1993
   description: Designed by Roberto Ierusalimschy, it's a lightweight language intended for embedded use in applications.
 
-- name: Ruby Programming Language
+- name: Ruby
   year: 1995
-  description: Designed by Yukihiro Matsumoto, it’s a dynamic OOP languages with a focus on simplicity and productivity.
+  description: Designed by Yukihiro Matsumoto, it’s a pure OOP scripting language with metaprogramming.
   
-- name: Ocaml Programming Language
+- name: Ocaml
   year: 1996
   description: Created in 1996 by Xavier Leroy and etc, it's a dialect of ML with an object system.
 
@@ -185,6 +197,10 @@
 - name: Trait
   year: 2003
   description: Proposed by Nathanael Scharli etc, traits is a simple compositional model for structuring object-oriented programs.
+
+- name: Scala
+  year: 2004
+  description: Designed by Martin Odersky, it's a strongly typed language on the idea of combining object-oriented and functional programming.
 
 - name: Modus Ponens
   year: UNKNOWN
