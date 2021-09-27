@@ -14,6 +14,10 @@
   year: 1920
   description: Introduced by Moses Schönfinkel, aims to provide an analogous way to build up functions and to remove any mention of variables in predicate logic.
 
+- name: SKI Combinator Calculus
+  year: 1924
+  description: Introduced by Moses Schönfinkel and Haskell Curry, it's computational system based on abstraction elimination.
+
 - name: Entscheidungsproblem
   year: 1928
   description: Posed by David Hilbert and Wilhelm Ackermann, it's a challenge that asks for an algorithm that considers, as input, a statement and answers "Yes" or "No" according to whether the statement is universally valid.
@@ -73,6 +77,10 @@
 - name: Scott Topology
   year: 1969
   description: Proposed by D. S. Scott, it’s a topological model for λ-calculus.
+
+- name: Graph Reducation
+  year: 1971
+  description: First developed by Chris Wadsworth, it's an efficient implementation of non-strict evaluation.
   
 - name: Girard's Paradox
   year: 1972
@@ -145,6 +153,10 @@
 - name: Glasgow Haskell Compiler (GHC)
   year: 1992
   description: GHC is a modern Haskell Compiler lead by Simon Peyton Jones and etc.
+
+- name: Lua Programming Language
+  year: 1993
+  description: Designed by Roberto Ierusalimschy, it's a lightweight language intended for embedded use in applications.
 
 - name: Ruby Programming Language
   year: 1995
