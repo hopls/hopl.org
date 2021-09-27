@@ -113,6 +113,10 @@
 - name: Scheme Programming Language
   year: 1975
   description: Developed by Guy L. Steele and Gerald Jay Sussman, it's a S-expression language based on λ-calculus.
+
+- name: Functional Programming (FP)
+  year: 1977
+  description: Presented by John Backus in "Can Programming Be Liberated From the von Neumann Style? A Functional Style and its Algebra of Programs".
   
 - name: Objective-C Programming Language
   year: 1984
@@ -125,22 +129,26 @@
 - name: Mixin
   year: 1986
   description: Originated in Flavors, mixins is an inheritance model that can subsumes multiple-inheritance etc.
-
-- name: Type Class
-  year: 1988
-  description: Proposed by Philip Wadler, first implemented in Haskell, it’s a type system construct that supports ad-hoc polymorphism.
   
 - name: Calculus of Constructions (CoC)
   year: 1988
-  description: Created by Thierry Coquand, it's a higher-order typed lambda calculus with strong normalization.
+  description: Created by Thierry Coquand, it's a higher-order typed lambda calculus with strong normalization.  
   
 - name: Coq Proof Assistant
   year: 1989
   description: Based on calculus of inductive constructions, it's an interactive theorem prover.
 
+- name: Type Class
+  year: 1989
+  description: Presented by Philip Wadler in "How to make ad-hoc polymorphism less ad hoc", it’s a type system construct that solves overloading.
+
 - name: Common Lisp Object System (CLOS)
   year: 1990
   description: CLOS is a dynamic object system that supports multiple dispatch and multiple inheritance.
+
+- name: Haskell Programming Language  
+  year: 1990
+  description: Named after Haskell Curry, it's a pure typed functional programming language.
   
 - name: Lambda Cube (λ-cube)
   year: 1991
@@ -164,7 +172,11 @@
   
 - name: Ocaml Programming Language
   year: 1996
-  description: Created in 1996 by Xavier Leroy and etc, it's a dialect of ML with a object system.
+  description: Created in 1996 by Xavier Leroy and etc, it's a dialect of ML with an object system.
+
+- name: Quickcheck
+  year: 1999
+  description: Developed by Koen Claessen and John Hughes, it's a property-based testing library originated in Haskell.
 
 - name: Featherweight Java
   year: 2001
