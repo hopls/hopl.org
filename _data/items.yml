@@ -74,6 +74,10 @@
   year: 1966
   description: Devised by Peter Landin in “The Next 700 Programming Languages”, it’s a abstract imperative programming language with functional core.
 
+- name: Hoare Logic
+  year: 1969
+  description: Proposed by Tony Hoare in "An axiomatic basis for computer programming", it's a formal system for reasoning about the correctness of computer programs.
+
 - name: Curry-Howard Isomorphism
   year: 1969
   description: Proposed by Haskell Curry and William Alvin Howard, it's a correspondence between the programs of simply typed lambda calculus and the proofs of natural deduction.
@@ -133,6 +137,10 @@
 - name: Functional Programming (FP)
   year: 1977
   description: Presented by John Backus in "Can Programming Be Liberated From the von Neumann Style? A Functional Style and its Algebra of Programs".
+
+- name: Algebraic Data Type
+  year: 1980
+  description: Originated in Hope, it's commonly considered as product type and sum type.
   
 - name: Objective-C
   year: 1984
@@ -182,6 +190,10 @@
   year: 1993
   description: Designed by Roberto Ierusalimschy, it's a lightweight language intended for embedded use in applications.
 
+- name: Java Virtual Machine (JVM)  
+  year: 1994
+  description: Designed by Sun Microsystems, it's a virtual machine thats run Java bytecode.
+
 - name: Ruby
   year: 1995
   description: Designed by Yukihiro Matsumoto, it’s a pure OOP scripting language with metaprogramming.
@@ -201,6 +213,10 @@
 - name: Scala
   year: 2004
   description: Designed by Martin Odersky, it's a strongly typed language on the idea of combining object-oriented and functional programming.
+
+- name: Clojure
+  year: 2007
+  description: Designed by Rich Hickey, it's a functional dialect of Lisp running on JVM.
 
 - name: Modus Ponens
   year: UNKNOWN
