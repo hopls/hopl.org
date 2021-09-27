@@ -5,18 +5,18 @@ hopl.org a site for timelining items about programming languages.
 
 It's constructed based on these principles:
 
-> For a specific programming language <
+>>> For a specific programming language <<<
 
 - It should be at least used by a group of people.
 - the date should be the formal release date.
 - the description should be about the motivation these languages are based on.
 
-> For a specific theorectical feature <
+>>> For a specific theorectical feature <<<
 
 - The date should be the year when published.
 - Better quote the paper/essay.
 
-> For a specific practical feature <
+>>> For a specific practical feature <<<
 
 - The date should be the one when a language implement it.
 - Better relate to theorectical one.
