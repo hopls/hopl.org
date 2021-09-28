@@ -74,6 +74,10 @@
   year: 1966
   description: Devised by Peter Landin in “The Next 700 Programming Languages”, it’s a abstract imperative programming language with functional core.
 
+- name: Ad-hoc Polymorphism
+  year: 1967
+  description: Introduced by Christopher Strachey, it's also known as funtion overloading.
+
 - name: Hoare Logic
   year: 1969
   description: Proposed by Tony Hoare in "An axiomatic basis for computer programming", it's a formal system for reasoning about the correctness of computer programs.
@@ -130,17 +134,29 @@
   year: 1975
   description: Developed by Guy L. Steele and Gerald Jay Sussman, it's a S-expression language based on λ-calculus.
 
-- name: Expression problem
+- name: Expression Problem
   year: 1975
   description: First observed by John Reynolds, later formulated by Philip Wadler, it's a challenge problem that concerns the extensibility and modularity of statically typed data abstractions.
+
+- name: Parametric Polymorphism
+  year: 1975
+  description: First introduced in ML, it's one kind of polymorphism where function and datetype can be written generically so that it can handle values identically without depending on their types.
 
 - name: Functional Programming (FP)
   year: 1977
   description: Presented by John Backus in "Can Programming Be Liberated From the von Neumann Style? A Functional Style and its Algebra of Programs".
 
+- name: Hindley–Milner Type System
+  year: 1978
+  description: Independently presented by J. Roger Hindley and Robin Milner, it's a classical type system for λ-calculus with parametric polymorphism.
+
 - name: Algebraic Data Type
   year: 1980
   description: Originated in Hope, it's commonly considered as product type and sum type.
+
+- name: Subtyping Polymorphism
+  year: 1980
+  description: Formalized by John C. Reynolds, it's a form of polymorphism where types can be subsumed by its subtypes.
   
 - name: Objective-C
   year: 1984
