@@ -146,7 +146,7 @@
   year: 1977
   description: Presented by John Backus in "Can Programming Be Liberated From the von Neumann Style? A Functional Style and its Algebra of Programs".
 
-- name: Hindley–Milner Type System
+- name: Hindley–Milner Type System (HM)
   year: 1978
   description: Independently presented by J. Roger Hindley and Robin Milner, it's a classical type system for λ-calculus with parametric polymorphism.
 
@@ -165,6 +165,14 @@
 - name: C++
   year: 1985
   description: Created by Bjarne Stroustrup, it's an extension of C language with object system, templates and the STL.
+
+- name: Chez Scheme
+  year: 1985
+  description: Designed by R. Kent Dybvig, it's an implementation of Scheme and uses an incremental native-code compiler to produce native binary files.
+
+- name: Emacs Lisp
+  year: 1985
+  description: Designed by Richard Stallman, it's a scripting Lisp dialect for Emacs.
 
 - name: Mixin
   year: 1986
@@ -213,6 +221,10 @@
 - name: Ruby
   year: 1995
   description: Designed by Yukihiro Matsumoto, it’s a pure OOP scripting language with metaprogramming.
+
+- name: Racket (PLT Scheme)
+  year: 1995
+  description: Founded by Matthias Felleisen as a research group, it's designed as a platform for programming language design and implementation.
   
 - name: Ocaml
   year: 1996
