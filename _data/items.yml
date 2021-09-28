@@ -258,6 +258,10 @@
   year: 2005
   description: Proposed by J. Nathan Foster and etc, it's a solution to view-update problem via bi-directional tree transformations.
 
+- name: CompCert
+  year: 2006
+  description: Developed by Xavier Leroy, it's a formally verified optimizing compiler for a large subset of CLight.
+
 - name: Clojure
   year: 2007
   description: Designed by Rich Hickey, it's a functional dialect of Lisp running on JVM.
