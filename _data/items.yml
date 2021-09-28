@@ -129,6 +129,10 @@
 - name: Abstract Data Type (ADT)
   year: 1974
   description: First proposed by Barbara Liskov and Stephen N. Zilles, it's a mathmatical model for data types.
+
+- name: SQL
+  year: 1974
+  description: Developed at IBM by Donald D. Chamberlin and Raymond F. Boyce, it's a DSL for managing data in relational database.
   
 - name: Scheme
   year: 1975
@@ -214,9 +218,13 @@
   year: 1993
   description: Designed by Roberto Ierusalimschy, it's a lightweight language intended for embedded use in applications.
 
-- name: Java Virtual Machine (JVM)  
+- name: Java Virtual Machine (JVM)
   year: 1994
-  description: Designed by Sun Microsystems, it's a virtual machine thats run Java bytecode.
+  description: Introduced by Sun Microsystems, it's a virtual machine thats run Java bytecode.
+
+- name: Java
+  year: 1995
+  description: Designed by James Gosling, it's a typed OOP language that runs on JVM.
 
 - name: Ruby
   year: 1995
@@ -229,6 +237,10 @@
 - name: Ocaml
   year: 1996
   description: Created in 1996 by Xavier Leroy and etc, it's a dialect of ML with an object system.
+
+- name: C#
+  year: 2000
+  description: Designed at Microsoft by Anders Hejlsberg, it's a typed OOP language that runs on .NET.
 
 - name: Featherweight Java
   year: 2001
@@ -245,6 +257,14 @@
 - name: Clojure
   year: 2007
   description: Designed by Rich Hickey, it's a functional dialect of Lisp running on JVM.
+
+- name: Go
+  year: 2007
+  description: Designed by Google, it's a static language for concurrent programming.
+
+- name: Rust
+  year: 2010
+  description: Designed at Mozilla by Graydon Hoare, it's a static language that emphasizes memory safety.
 
 - name: Modus Ponens
   year: UNKNOWN
