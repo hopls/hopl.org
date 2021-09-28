@@ -254,6 +254,10 @@
   year: 2004
   description: Designed by Martin Odersky, it's a strongly typed language on the idea of combining object-oriented and functional programming.
 
+- name: Lens
+  year: 2005
+  description: Proposed by J. Nathan Foster and etc, it's a solution to view-update problem via bi-directional tree transformations.
+
 - name: Clojure
   year: 2007
   description: Designed by Rich Hickey, it's a functional dialect of Lisp running on JVM.
