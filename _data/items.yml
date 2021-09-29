@@ -116,7 +116,7 @@
 
 - name: Smalltalk
   year: 1972
-  description: Developed by Alan Kay etc. Smalltalk is a object-oriented language based on the idea of message passing.
+  description: Designed by Alan Kay. Smalltalk is a object-oriented language based on the idea of message passing.
 
 - name: System F
   year: 1972
@@ -128,11 +128,11 @@
 
 - name: Lisp Machine
   year: 1973
-  description: Originated in MIT AI Lab, Lisp Machine is a high-level language computer architecture that supports effective garbage collection, windowing systems, etc.
+  description: Originated in MIT AI Lab, Lisp Machine is a high-level language computer architecture that supports effective garbage collection, windowing systems etc.
 
 - name: ML
   year: 1973
-  description: Developed by Robin Milner and etc, it’s a type-safe functional programming language.
+  description: Designed by Robin Milner, it’s a type-safe functional programming language.
 
 - name: Abstract Data Type (ADT)
   year: 1974
@@ -220,7 +220,7 @@
 
 - name: Glasgow Haskell Compiler (GHC)
   year: 1992
-  description: GHC is a modern Haskell Compiler lead by Simon Peyton Jones and etc.
+  description: GHC is a modern Haskell Compiler lead by Simon Peyton Jones et al..
 
 - name: Lua
   year: 1993
@@ -244,7 +244,7 @@
   
 - name: Ocaml
   year: 1996
-  description: Created in 1996 by Xavier Leroy and etc, it's a dialect of ML with an object system.
+  description: Created in 1996 by Xavier Leroy et al., it's a dialect of ML with an object system.
 
 - name: C#
   year: 2000
@@ -252,11 +252,11 @@
 
 - name: Featherweight Java
   year: 2001
-  description: Studied by Atsushi Igarashi etc, it’s a minimal java-like language which models inheritance and subtyping.
+  description: Proposed by Atsushi Igarashi et al, it’s a minimal java-like language which models inheritance and subtyping.
 
 - name: Trait
   year: 2003
-  description: Proposed by Nathanael Scharli etc, traits is a simple compositional model for structuring object-oriented programs.
+  description: Proposed by Oscar Nierstrasz et al., traits is a simple compositional model for structuring object-oriented programs.
 
 - name: Scala
   year: 2004
@@ -264,7 +264,7 @@
 
 - name: Lens
   year: 2005
-  description: Proposed by J. Nathan Foster and etc, it's a solution to view-update problem via bi-directional tree transformations.
+  description: Proposed by J. Nathan Foster et al., it's a solution to view-update problem via bi-directional tree transformations.
 
 - name: CompCert
   year: 2006
