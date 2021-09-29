@@ -6,6 +6,10 @@
   year: 1901
   description: Russell’s paradox shows that every set theory that contains an unrestricted comprehension principle leads to contradictions.
 
+- name: Predicative/Impredicative
+  year: 1907
+  description: Introduced by Russell, a definition is impredicative if it mentions or quantifies over the set being defined.
+
 - name: Principia Mathematica
   year: 1910
   description: Written by Whitehead and Russell, and aims to express mathmatical propositions via symbolic logic to the greatest extent.
@@ -25,6 +29,10 @@
 - name: Lambda Calculus (λ-calculus)
   year: 1930
   description: Introduced by Alonzo Church, λ-calculus is a formal system in mathmatical logic for expressing computation based on function abstraction and application using variable binding and substitution.
+
+- name: Gödel's Incompleteness Theorems
+  year: 1931
+  description: Published by Kurt Gödel, they show that Hilbert's program to find a complete and consistent set of axioms for all mathematics is impossible.
 
 - name: Cut-Elimination Theorem
   year: 1934
