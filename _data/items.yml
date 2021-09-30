@@ -192,7 +192,7 @@
   
 - name: Calculus of Constructions (CoC)
   year: 1988
-  description: Created by Thierry Coquand, it's a higher-order typed lambda calculus with strong normalization.  
+  description: Created by Coquand and Huet, it's a higher-order typed lambda calculus with strong normalization.  
   
 - name: Coq Proof Assistant
   year: 1989
