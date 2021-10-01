@@ -198,6 +198,10 @@
   year: 1989
   description: Based on calculus of inductive constructions, it's an interactive theorem prover.
 
+- name: Row Polymorphism
+  year: 1989
+  description: Introduced by Mitchell Wand, it's a kind of polymorphism that allows one to write programs that are polymorphic on record field types.
+
 - name: Type Class
   year: 1989
   description: Presented by Philip Wadler in "How to make ad-hoc polymorphism less ad hoc", it’s a type system construct that solves overloading.
