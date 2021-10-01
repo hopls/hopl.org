@@ -30,6 +30,10 @@
   year: 1930
   description: Introduced by Alonzo Church, λ-calculus is a formal system in mathmatical logic for expressing computation based on function abstraction and application using variable binding and substitution.
 
+- name: Church Encoding
+  year: 1930
+  description: Introduced by Alonzo Church, it's a means of representing data and operators in the lambda calculus.
+
 - name: Gödel's Incompleteness Theorems
   year: 1931
   description: Published by Kurt Gödel, they show that Hilbert's program to find a complete and consistent set of axioms for all mathematics is impossible.
@@ -73,6 +77,10 @@
 - name: Lexical Scoping
   year: 1960
   description: Originated in ALGOL 60, it states that name resolution depends on the location in the source code and the lexical context.
+
+- name: Scott Encoding
+  year: 1962
+  description: Proposed by Dana Scott, it's a way to represent (recursive) data types in the lambda calculus.
 
 - name: Simula
   year: 1962
