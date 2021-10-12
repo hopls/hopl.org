@@ -254,6 +254,10 @@
   year: 1995
   description: Founded by Matthias Felleisen as a research group, it's designed as a platform for programming language design and implementation.
   
+- name: Yoneda Lemma
+  year: 1996
+  description: Stated by Yoshiki Kinoshita, it's an abstract result on functors of the type morphisms into a fixed object.
+  
 - name: Ocaml
   year: 1996
   description: Created in 1996 by Xavier Leroy et al., it's a dialect of ML with an object system.
