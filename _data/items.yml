@@ -212,7 +212,7 @@
 
 - name: Type Class
   year: 1989
-  description: Presented by Philip Wadler in "How to make ad-hoc polymorphism less ad hoc", it’s a type system construct that solves overloading.
+  description: Presented by Wadler and Blott in "How to make ad-hoc polymorphism less ad hoc", it’s a type system construct that solves overloading.
 
 - name: Common Lisp Object System (CLOS)
   year: 1990
