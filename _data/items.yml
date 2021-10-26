@@ -285,6 +285,10 @@
 - name: CompCert
   year: 2006
   description: Developed by Xavier Leroy, it's a formally verified optimizing compiler for a large subset of CLight.
+  
+- name: Gradual Typing
+  year: 2006
+  description: Developed by Jeremy Siek and Walid Taha, it's a type system that allows parts of a program to be dynamically typed and other parts to be statically typed.
 
 - name: Clojure
   year: 2007
