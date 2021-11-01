@@ -85,6 +85,10 @@
 - name: Simula
   year: 1962
   description: Developed by Ole-Johan Dahl and Kristen Nygaard, it’s the first object-oriented programming language.
+  
+- name: SECD Machine (Stack, Environment, Control, Dump)
+  year: 1964
+  description: Described by Peter J. Landin, it's an abstract machine intended as a target for functional programming language compilers.
 
 - name: ISWIM (If you See What I Mean)
   year: 1966
