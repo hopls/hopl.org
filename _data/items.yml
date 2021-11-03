@@ -113,6 +113,10 @@
 - name: Graph Reducation
   year: 1971
   description: First developed by Chris Wadsworth, it's an efficient implementation of non-strict evaluation.
+  
+- name: De Bruijn Index
+  year: 1972
+  description: Invented by De Bruijn, it's a tool to represent terms of lambda calculus without naming the bound variables.
 
 - name: Prolog
   year: 1972
