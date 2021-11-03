@@ -305,11 +305,3 @@
 - name: Rust
   year: 2010
   description: Designed at Mozilla by Graydon Hoare, it's a static language that emphasizes memory safety.
-
-- name: Modus Ponens
-  year: UNKNOWN
-  description: 'It’s barely implication elimination in propositional logic: “P implies Q. P is true. Therefore Q must also be true.”'
-  
-- name: Syllogism
-  year: UNKNOWN
-  description: Defined by Aristotle, it's a simple approach of deductive reasoning.
