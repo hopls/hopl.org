@@ -208,7 +208,11 @@
   
 - name: Calculus of Constructions (CoC)
   year: 1988
-  description: Created by Coquand and Huet, it's a higher-order typed lambda calculus with strong normalization.  
+  description: Created by Coquand and Huet, it's a higher-order typed lambda calculus with strong normalization.
+  
+- name: Phase Distinction
+  year: 1988
+  description: Proposed by Luca Cardelli, it's a property "If A is a compile-time term and B is a subterm of A, then B must also be a compile-time term."
   
 - name: Coq Proof Assistant
   year: 1989
