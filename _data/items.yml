@@ -257,6 +257,10 @@
 - name: Java
   year: 1995
   description: Designed by James Gosling, it's a typed OOP language that runs on JVM.
+  
+- name: JavaScript
+  year: 1995
+  description: Designed by Netscape, it's a programming language that is one of the core technologies of the World Wide Web.
 
 - name: Ruby
   year: 1995
@@ -273,6 +277,10 @@
 - name: Ocaml
   year: 1996
   description: Created in 1996 by Xavier Leroy et al., it's a dialect of ML with an object system.
+  
+- name: ECMAScript
+  year: 1996
+  description: Designed in 1996 by Ecma International, it's a standard for JavaScript, which ensures the interoperability of web applications across different scripting engines.
 
 - name: C#
   year: 2000
