@@ -260,7 +260,7 @@
   
 - name: JavaScript
   year: 1995
-  description: Designed by Netscape, it's a programming language that is one of the core technologies of the World Wide Web.
+  description: Designed by Netscape, it's a dynamic language with prototype-based object system and one of the core technologies of the Web.
 
 - name: Ruby
   year: 1995
